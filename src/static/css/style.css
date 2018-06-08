@@ -1,0 +1,291 @@
+/**衬托背景色**/
+.background-div {
+    background-color: #F2F2F2;
+    height: 100%;
+    overflow: auto;
+}
+
+/**
+反衬背景色
+ */
+.center-div {
+    background-color: #FFFFFF;
+    height: 100%;
+    overflow: auto;
+    min-height: 400px;
+}
+
+/*
+    去掉layui的边框 和设置颜色
+ */
+.del-border {
+    border: none;
+    background: red;
+}
+
+/*
+  布局下的第一个
+ */
+.frist-div {
+    padding-left: 35px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+/*文本框样式*/
+.myinput {
+    width: 144px;
+    height: 18px;
+    border: 1px solid #c2cad8;
+    padding: 7px 0px;
+    border-radius: 6px;
+}
+
+.myinput1 {
+    width: 144px;
+    height: 18px;
+    border: 1px solid #c2cad8;
+    padding: 7px 0px;
+    border-radius: 0px;
+}
+
+/*更适合输入框*/
+.myinput2 {
+    width: 174px;
+    height: 18px;
+    border: 1px solid #c2cad8;
+    padding: 7px 0px;
+    border-radius: 0px;
+    margin-left: 15px;
+    border-radius: 4px;
+}
+/*更适合输入框*/
+.myinput3 {
+    width: 243px;
+    height: 18px;
+    border: 1px solid #c2cad8;
+    padding: 7px 0px;
+    border-radius: 0px;
+    margin-left: 15px;
+    border-radius: 4px;
+}
+
+/*圆角*/
+.myinputCircle {
+    width: 144px;
+    height: 18px;
+    border: 1px solid #c2cad8;
+    padding: 7px 0px;
+    border-radius: 6px;
+}
+
+/*表格input*/
+.myinputTb {
+    width: 144px;
+    height: 12px;
+    border: 1px solid #c2cad8;
+    padding: 7px 0px;
+    border-radius: 6px;
+}
+/*用于筛选*/
+.queryTb {
+  width: 150px;
+  height: 30px;
+  border: 1px solid #c2cad8;
+  padding: 7px 0px;
+  border-radius: 3px;
+}
+
+/*输入框点击时变亮*/
+input:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+}
+textarea:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+}
+textarea{
+  border: 1px solid #dddee1;
+  border-radius: 4px;
+  width: 272px;
+  height: 77px;
+}
+
+/* 表格内容多出来隐藏*/
+.mytable {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.mytd {
+    word-break: keep-all;
+    overflow: hidden;
+    table-layout: fixed;
+}
+
+.mybutton0 {
+    height: 36px;
+    width: 83px;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: white;
+    text-align: center;
+    background-color: #1e9fff;
+    border: 1px solid #ccc;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 8px;
+}
+
+.mybutton3 {
+    height: 46px;
+    width: 83px;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #1d1d1d;
+    text-align: center;
+    background-color: rgba(236, 255, 242, 0);
+    border: 1px solid #ccc;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 5px;
+}
+
+.mybutton1 {
+    height: 36px;
+    width: 83px;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: white;
+    text-align: center;
+    background-color: #5fb878;
+    border: 1px solid #ccc;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.mydiv {
+    margin: 0;
+    border-bottom: 1px solid #efefef;
+}
+
+.mybox {
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+    border-top: 3px solid #3c8dbc;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.myselect {
+    height: 30px;
+    width: 150px;
+    border: 1px solid #8cb4de;
+}
+
+.myFile {
+
+}
+
+/*<!-- 带个三角形的 input-- >*/
+.triangleInput {
+    padding: 5px;
+    width: 170px;
+    height: 34px;
+}
+
+.tr {
+    background-color: #F2F2F2;
+}
+
+/*禁用a标签*/
+.disableCss {
+    pointer-events: none;
+    color: #afafaf;
+    cursor: default
+}
+
+/*一种灰色文本框*/
+.curMatchContent {
+    min-height: 40px;
+    margin: 5px 0 10px;
+    padding: 10px;
+    background: #e4e4e4;
+    word-break: break-all;
+}
+
+.colorBlue {
+    color: #34aaab;
+}
+
+font {
+    font-family: Microsoft Yahei;
+}
+
+.pageSpan {
+    font-size: 17px;
+    color: #666666;
+}
+
+.pageDiv {
+    padding-right: 80px;
+    color: #666666;
+    text-align: right
+}
+.closeBox {
+    position: absolute;
+    right: 0;
+    background-color: #fff !important;
+    color: #000;
+    border-left: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+}
+/*居中框*/
+.login{
+    height: 300px;
+    width: 260px;
+    /*padding: 20px;*/
+    border-radius: 4px;
+    /*position: absolute;*/
+    left: 50%;
+    top: 50%;
+    /*margin: -150px 0 0 -150px;*/
+    z-index: 99;
+}
+
+.ivu-table{
+  width: inherit;
+  height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  color: #495060;
+  font-size: 14px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.frist-div{
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.myCol{
+  margin-left: 80px;
+  margin-bottom: 12px;
+}
+.must{
+  color:red;
+  size:6px;
+}
